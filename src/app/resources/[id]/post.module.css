@@ -1,0 +1,46 @@
+.outerContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+
+.postContainer {
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: var(--background-primary);
+	width: 75%;
+	min-width: 800px;
+}
+
+.titleBar {
+	margin: 2rem;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.thumbnail {
+	width: 60%;
+	height: 350px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.postData {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	margin-left: 1rem;
+	margin-right: 2rem;
+}
+
+.content {
+	margin-left: 40px;
+	margin-top: 20px;
+	font-weight: 500;
+	white-space: break-spaces;
+}
